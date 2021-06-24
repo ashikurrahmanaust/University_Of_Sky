@@ -1,0 +1,423 @@
+<!-- localhost/UniversityOfSky/website.html-->
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+			<title>University of SKY</title>
+			<style>	
+			/*for desktop/laptops*/
+@media only screen and (min-width: 768px) {
+body {
+   
+	  background-color: #00004d;
+}
+h1{
+
+  color:white;
+  font-size:30px;
+font-style:bold;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+  color:black;
+font-style:bold;
+font-family: "Times New Roman", Times, serif;
+ font-size: 20px;
+}
+h4{
+  color:white;
+text-align:center;
+font-style:bold;
+font-family: "Times New Roman", Times, serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+
+
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+h2{
+color:white;
+text-align:center;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+background-color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:white;
+}
+h5{
+text-align:center;
+color:white;
+margin-top:40px;
+style:bold;
+}
+.square {
+  height: 100px;
+  width: 100px;
+
+}
+
+
+#wrapper{
+width:280px;
+height:48px;
+margin:48px;
+margin-top:500px;
+
+}
+h2{
+align:center;
+color:white;
+
+}
+.box{
+float:left;
+width:48px;
+height:48px;
+
+font-family:entypo; //icon image will come
+color:#212121;
+background:#fff;
+text-align:center;
+line-height:48px;
+font-family:25px;
+font-size:25px;
+display:block;
+cursor:pointer;
+margin:10px;
+transition:1s;
+}
+.box.hover{ //hover=overwrite
+color:#fff;
+transform:scale(1.15);
+transition:1s;  // change in property
+}
+#facebook:hover{
+background-color:rgb(59,89,152);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#twitter:hover{
+background-color:rgb(59,89,152);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#google:hover{
+background-color:rgb(221,75,57);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#linkedin:hover{
+background-color:rgb(0,123,181);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+
+.line1{
+position:absolute;
+margin-left:20px;
+margin-top:100px;
+}
+.line2{
+position:absolute;
+
+margin-top:140px;
+
+}
+
+
+}
+/* for tabs and phones*/
+@media only screen and (max-width: 768px){
+body {
+   
+	  background-color: #00004d;
+}
+h1{
+
+  color:white;
+  font-size:30px;
+font-style:bold;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+  color:black;
+font-style:bold;
+font-family: "Times New Roman", Times, serif;
+ font-size: 20px;
+}
+h4{
+  color:white;
+text-align:center;
+font-style:bold;
+font-family: "Times New Roman", Times, serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+
+
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+h2{
+color:white;
+text-align:center;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+background-color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:white;
+}
+h5{
+text-align:center;
+color:white;
+margin-top:40px;
+style:bold;
+}
+.square {
+  height: 100px;
+  width: 100px;
+
+}
+
+
+#wrapper{
+width:280px;
+height:48px;
+margin:48px;
+margin-top:50px;
+
+}
+h2{
+align:center;
+color:white;
+
+}
+.box{
+float:left;
+width:48px;
+height:48px;
+
+font-family:entypo; //icon image will come
+color:#212121;
+background:#fff;
+text-align:center;
+line-height:48px;
+font-family:25px;
+font-size:25px;
+display:block;
+cursor:pointer;
+margin:10px;
+transition:1s;
+}
+.box.hover{ //hover=overwrite
+color:#fff;
+transform:scale(1.15);
+transition:1s;  // change in property
+}
+#facebook:hover{
+background-color:rgb(59,89,152);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#twitter:hover{
+background-color:rgb(59,89,152);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#google:hover{
+background-color:rgb(221,75,57);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+#linkedin:hover{
+background-color:rgb(0,123,181);
+box-shadow:inset 0 0 0 22px #3A5795;
+transform:rotate(360deg) scale(1.15);
+transition:1s;
+}
+
+.line1{
+position:absolute;
+margin-left:20px;
+margin-top:100px;
+}
+.line2{
+position:absolute;
+
+margin-top:140px;
+
+}
+
+
+}
+</style>			
+</head>
+<body>
+
+  <img src="images/blue_sky_uni.PNG"  class="responsive">
+<header>
+<ul>
+<div class="dropdown">
+  <button class="dropbtn">HOME</button>
+    <div class="dropdown-content">
+  <a href="index.html">home</a>
+</div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">USER LOGIN</button>
+    <div class="dropdown-content">
+  <a href="login.php">Login</a>
+  <a href="regform.php">Registration</a>
+  </div>
+
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">About</button>
+  </div>
+
+
+</ul>
+			</header>
+
+  <img src="images/university_13.jpg"  width="100%" class="responsive">
+
+
+<div class="container ">
+
+    <div class="line1 text-white">
+	<h1>ABOUT US</h1></div>
+	 <div class="line2 text-white">
+	<h2>We are one of the largest,
+	most diverse universities in the world with over
+	<br>120,000 students in Bangladesh,
+	and a further 50,000 studying 
+	across 100 countries<br> for a University of Sky degree.	
+	<br>Students of the member institutions are 
+	also University of Sky students, giving them access to our
+	wide range of services in Bangladesh. The academic 
+	quality <br>of your qualification is of the very highest standard .</h2></div>
+	
+  </div>
+ 
+</div>
+
+<div id="wrapper">
+   <h4>© University Of Sky </h4>
+    <h4>Contact with us </h4>
+   <i class="box" id="facebook"><img src="images/fb.jpg"></i>
+    <i class="box" id="twitter"><img src="images/twitter.jpg"></i>
+	 <i class="box" id="google"><img src="images/google.jpg"></i>
+	  <i class="box" id="linkedin"><img src="images/linkedin.jpg"></i>
+ 
+  </div>
+
+ 
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
